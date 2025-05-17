@@ -4,365 +4,137 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfe540e8-9d1e-4a52-9948-d2fb43af5219" name="更改" comment="2">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/FuYunApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/dto/DemoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/mapper/DemoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/mapper/需要生成XML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/pojo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/service/demoImpl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/OkHttpConfig.java" afterDir="false" />
+    <list default="true" id="bfe540e8-9d1e-4a52-9948-d2fb43af5219" name="更改" comment="3demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/annotation/AccessLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/annotation/ApiIdempotent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/annotation/ColNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/common/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/common/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/common/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/dto/AccessTokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/dto/DemoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/exception/MyControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/interceptor/AccessLimitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/interceptor/ApiIdempotentInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/AllTokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/AllTokenMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CommentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CommentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionGroupsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionGroupsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/DemoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/DemoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/HotStocksMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/HotStocksMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/InvestmentThoughtsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/InvestmentThoughtsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/LikesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/LikesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/ProfitRankingsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/ProfitRankingsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/TokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/TradeRecordsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/TradeRecordsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserCompetitionsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserCompetitionsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserRelationsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserRelationsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserStatsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserStatsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/AllToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/CompetitionGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Competitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/HotStocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/InvestmentThoughts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Likes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/ProfitRankings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/TradeRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/UserCompetitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/UserRelations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/UserStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/schedule/Schedules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/schedule/TokenSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/Impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/Impl/LxTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/LxTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/ConfigUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/ECSMD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/JodaTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/ListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/OkHttpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/OkHttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/QrCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/SpringContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/FuYunSoftApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/dto/WxLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/ParamValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/AllTokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/AllTokenMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/pojo/AllToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/DemoTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/WxTokenRefreshTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/AsyncService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/WxAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/WxTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/impl/WxAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/impl/WxTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/SessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/FuYun创表sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/all_token创表.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/TestApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/annotation/AccessLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/annotation/AccessLimit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/annotation/ApiIdempotent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/annotation/ApiIdempotent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/annotation/ColNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/annotation/ColNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/common/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/common/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/common/ResponseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/common/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/common/ServerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/config/OkHttpConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/controller/FundController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/controller/StrategyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/controller/ViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/dynamicproxy/PayProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/dynamicproxy/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/dynamicproxy/PayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/dynamicproxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/ALiPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/IPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/PayTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/UnionPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/WeChatPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/factorymethod/AFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/factorymethod/BFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/factorymethod/FactoryMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/factorymethod/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/simplefactory/PayFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/factory/simplefactory/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/staticproxy/PayProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/staticproxy/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/staticproxy/PayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/staticproxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/strategy/AliPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/strategy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/strategy/PayContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/strategy/PayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/strategy/UnionPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/designpattern/strategy/WxPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/dto/FundDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/dto/FundJsonResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/dto/FundRankDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/dto/FundTypeDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/dto/FundYieldDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/dto/SearchFormDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/exception/MyControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/exception/MyControllerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/exception/ServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/interceptor/AccessLimitInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/interceptor/AccessLimitInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/interceptor/ApiIdempotentInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/interceptor/ApiIdempotentInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/FundMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/FundMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/LoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/LoginLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/MsgLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/MsgLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/mapper/UserMapperWithAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/pojo/CalculateDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/pojo/Fund.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/pojo/LoginLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/pojo/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/pojo/Mail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/pojo/MsgLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/schedule/schedules.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/FundService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/LoginLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/LoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/LoginServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/MsgLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/service/TokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/batch/BatchProcessMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/batch/mapperproxy/MapperProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/impl/FundServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/impl/LoginLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/impl/MsgLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/impl/TestServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/impl/TokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/service/TokenServiceImpl/TokenServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/strategy/AddCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/strategy/CalculateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/strategy/CalculateServiceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/strategy/CalculateStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/strategy/DivideCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/strategy/MultiplyCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/strategy/SubtractCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/threadpool/LockSupportTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/threadpool/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/threadpool/TestJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/service/threadpool/ThreadPoolFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/ConfigUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/FundUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/IpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/IpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/JodaTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/JodaTimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/ListUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/MailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/MailUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/OkHttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/OkHttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/PageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/RandomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/RegexUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/SerializableUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/SpringContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/utils/SpringContextUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzaiplus/test/util/ViewUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soft/schedule/schedules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/schedule/Schedules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/TestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/TestApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/annotation/AccessLimit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/annotation/AccessLimit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/annotation/ApiIdempotent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/annotation/ApiIdempotent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/annotation/ColNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/annotation/ColNum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$CalculateTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$FundRank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$FundSortType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$FundType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$FundYield.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$LogType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$MsgLogStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant$Redis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/ResponseCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/ResponseCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/ServerResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/common/ServerResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/config/OkHttpConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/config/OkHttpConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/config/OkHttpConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/FundController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/FundController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/StrategyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/StrategyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/ViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/controller/ViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/PayProxy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/PayProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/PayProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/PayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/PayServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/PayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/dynamicproxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/ALiPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/ALiPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/IPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/IPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/PayTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/PayTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/UnionPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/UnionPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/WeChatPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/WeChatPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/AFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/AFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/BFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/BFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/FactoryMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/FactoryMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/PayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/factorymethod/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/simplefactory/PayFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/simplefactory/PayFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/simplefactory/PayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/factory/simplefactory/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/PayProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/PayProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/PayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/PayServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/PayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/staticproxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/AliPayStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/AliPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/PayContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/PayContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/PayStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/PayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/UnionPayStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/UnionPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/WxPayStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/designpattern/strategy/WxPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundDto$FundDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundJsonResponseDto$FundJsonResponseDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundJsonResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundJsonResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundRankDto$FundRankDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundRankDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundRankDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundTypeDto$FundTypeDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundTypeDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundTypeDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundYieldDto$FundYieldDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundYieldDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/FundYieldDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/SearchFormDto$SearchFormDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/SearchFormDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/SearchFormDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/UserDto$UserDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/exception/MyControllerAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/exception/MyControllerAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/exception/ServiceException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/exception/ServiceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/interceptor/AccessLimitInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/interceptor/AccessLimitInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/interceptor/ApiIdempotentInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/interceptor/ApiIdempotentInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/FundMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/FundMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/FundMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/LoginLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/LoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/LoginLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/MsgLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/MsgLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/MsgLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/UserMapperWithAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/mapper/UserMapperWithAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/CalculateDto$CalculateDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/CalculateDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/CalculateDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/Fund$FundBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/Fund.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/Fund.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/LoginLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/LoginLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/Mail$MailBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/Mail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/Mail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/MsgLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/MsgLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/schedule/schedules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/schedule/schedules.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/FundService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/FundService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/LoginLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/LoginLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/LoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/LoginServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/LoginServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/MsgLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/MsgLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/TestService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/TokenService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/batch/BatchProcessMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/batch/BatchProcessMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/batch/mapperproxy/MapperProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/batch/mapperproxy/MapperProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/FundServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/FundServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/LoginLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/LoginLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/MsgLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/MsgLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/TestServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/TestServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/TokenServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/TokenServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/AddCalculateServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/AddCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/CalculateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/CalculateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/CalculateServiceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/CalculateServiceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/CalculateStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/CalculateStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/DivideCalculateServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/DivideCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/MultiplyCalculateServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/MultiplyCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/SubtractCalculateServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/strategy/SubtractCalculateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/LockSupportTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/LockSupportTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/TestJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/TestJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/ThreadPoolFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/service/threadpool/ThreadPoolFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/BeanUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/BeanUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/ConfigUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/ConfigUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/FundUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/FundUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/IpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/IpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/JodaTimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/JodaTimeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/JsonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/ListUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/ListUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/MailUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/MailUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/OkHttpUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/OkHttpUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/PageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/PageUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/RandomUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/RandomUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/RegexUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/RegexUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/SerializableUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/SerializableUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/SpringContextUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/SpringContextUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/ViewUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangzaiplus/test/util/ViewUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/soft/schedule/schedules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/soft/schedule/schedules.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wangzaiplus/test/TestApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wangzaiplus/test/controller/test/TestControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wangzaiplus/test/util/MailUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft/FuYunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/FuYunApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/ddl_create_database_01.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/dml_create_fund_02.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/dml_create_msg_log_03.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/dml_create_user_04.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/FuYunApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/FuYunApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/ddl_create_database_01.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/dml_create_fund_02.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/dml_create_msg_log_03.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/dml_create_user_04.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,8 +145,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -402,7 +175,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="customMavenHome" value="D:\Mungs\apache-maven-3.9.3\bin" />
-        <option name="localRepository" value="D:\Mungs\MavenRepository" />
+        <option name="localRepository" value="D:\Mungs\MavenRepositoryNews1" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\Mungs\apache-maven-3.9.3\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -420,6 +193,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2wykOGqUTJLlRm0sNAm6jm3roXg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -434,41 +210,72 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.DemoApplication.executor": "Run",
     "Spring Boot.FuYunApplication.executor": "Run",
+    "Spring Boot.FuYunSoftApplication.executor": "Run",
     "Spring Boot.TestApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/IdeaWork/FUN1/src/main/java/com/soft/pojo",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/IdeaWork/FUN1/src/main/java/com/fuYunSoft",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/IdeaWork/FUN1/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.QrCodeUtils.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWork\FUN1\src\main\java\com\soft\pojo" />
-      <recent name="D:\IdeaWork\FUN1\src\main\java\com\soft" />
-      <recent name="D:\IdeaWork\FUN1\src\main\java\com\wangzaiplus\test\util" />
-      <recent name="D:\IdeaWork\FUN1\src\main\java\com\soft\utils" />
-      <recent name="D:\IdeaWork\FUN1\src\main\java\com\soft\interceptor" />
+      <recent name="D:\IdeaWork\FUN1\src\main\java\com\fuYunSoft" />
+      <recent name="D:\IdeaWork\FUN1\src\main\resources\db" />
+      <recent name="D:\IdeaWork\FUN1\src\main\java\com\fuYun\utils" />
+      <recent name="D:\IdeaWork\FUN1\src\main\java\com\fuYun" />
+      <recent name="D:\IdeaWork\FUN1\src\main\java\com\soft\mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaWork\FUN1\src\main\java\com\fuYun\dto" />
+      <recent name="D:\IdeaWork\FUN1\src\main\resources\db" />
       <recent name="D:\IdeaWork\FUN1\src\main\java\com\soft\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fuYun.service" />
       <recent name="com.soft.utils" />
       <recent name="com.soft.service.TokenServiceImpl" />
       <recent name="com.soft.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FuYunApplication">
-    <configuration name="FuYunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FuYunSoftApplication">
+    <configuration name="QrCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuYun.utils.QrCodeUtils" />
       <module name="test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft.FuYunApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fuYun.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft.DemoApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.soft.*" />
@@ -479,16 +286,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="FuYunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzaiplus.test.TestApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fuYun.FuYunApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fuYun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuYunSoftApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fuYunSoft.FuYunSoftApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fuYunSoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FuYunSoftApplication" />
         <item itemvalue="Spring Boot.FuYunApplication" />
+        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="应用程序.QrCodeUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -499,6 +328,9 @@
         <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -511,6 +343,12 @@
       <workItem from="1747021170610" duration="938000" />
       <workItem from="1747022134617" duration="4845000" />
       <workItem from="1747097962137" duration="8432000" />
+      <workItem from="1747106552303" duration="3355000" />
+      <workItem from="1747180616063" duration="6332000" />
+      <workItem from="1747273914216" duration="3585000" />
+      <workItem from="1747279094416" duration="11951000" />
+      <workItem from="1747354952964" duration="4330000" />
+      <workItem from="1747441389656" duration="12472000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -552,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747022691025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3demo">
+      <option name="closed" value="true" />
+      <created>1747106634757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747106634757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +407,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="3demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -570,6 +417,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soft/interceptor/ApiIdempotentInterceptor.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

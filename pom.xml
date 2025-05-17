@@ -29,18 +29,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!--redisson
-		<dependency>
-			<groupId>org.redisson</groupId>
-			<artifactId>redisson</artifactId>
-			<version>3.6.5</version>
-		</dependency>-->
-		<!-- Redis-Jedis
-		<dependency>
-			<groupId>redis.clients</groupId>
-			<artifactId>jedis</artifactId>
-			<version>${jedis.version}</version>
-		</dependency>-->
 		<!--mybatis-->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
@@ -86,11 +74,6 @@
 			<artifactId>joda-time</artifactId>
 			<version>2.10</version>
 		</dependency>
-		<!--mq
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-amqp</artifactId>
-		</dependency>-->
 		<!--mail-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -116,14 +99,48 @@
 			<artifactId>okhttp</artifactId>
 			<version>3.10.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all -->
 		<dependency>
 			<groupId>org.codehaus.groovy</groupId>
 			<artifactId>groovy-all</artifactId>
 			<version>3.0.0</version>
 			<type>pom</type>
 		</dependency>
-
+		<!-- JJWT for JWT token handling -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- Redis-Jedis -->
+<!--		<dependency>-->
+<!--			<groupId>redis.clients</groupId>-->
+<!--			<artifactId>jedis</artifactId>-->
+<!--			<version>3.7.0</version>-->
+<!--		</dependency>-->
+		<!-- Spring Session with Redis -->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.session</groupId>-->
+<!--			<artifactId>spring-session-data-redis</artifactId>-->
+<!--			<version>2.7.0</version> &lt;!&ndash; 与Spring Boot 2.1.5兼容的版本 &ndash;&gt;-->
+<!--		</dependency>-->
+		<!-- Spring Boot Redis Starter -->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-data-redis</artifactId>-->
+<!--			<version>2.7.18</version> &lt;!&ndash; 2023年发布的稳定版 &ndash;&gt;-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>

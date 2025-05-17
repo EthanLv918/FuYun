@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fuYunSoft.mapper.AllTokenMapper">
+
+    <resultMap id="AllTokenResultMap" type="com.fuYunSoft.pojo.AllToken">
+        <id property="tokenId" column="token_id" />
+        <result property="appName" column="app_name" />
+        <result property="tokenType" column="token_type" />
+        <result property="tokenValue" column="token_value" />
+        <result property="expiresIn" column="expires_in" />
+        <result property="expireTime" column="expire_time" />
+        <result property="createdAt" column="created_at" />
+        <result property="updatedAt" column="updated_at" />
+        <result property="reserved1" column="reserved1" />
+        <result property="reserved2" column="reserved2" />
+        <result property="reserved3" column="reserved3" />
+        <result property="reserved4" column="reserved4" />
+        <result property="reserved5" column="reserved5" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        token_id, app_name, token_type, token_value,
+        expires_in, expire_time, created_at, updated_at,
+        reserved1, reserved2, reserved3, reserved4, reserved5
+    </sql>
+
+    <!-- 根据应用名和类型查询 -->
+    <select id="selectByAppAndType" resultMap="AllTokenResultMap">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM all_token
+        WHERE app_name = #{appName}
+        AND token_type = #{tokenType}
+        LIMIT 1
+    </select>
+
+    <!-- 新增记录 -->
+    <insert id="insert" parameterType="com.fuYunSoft.pojo.AllToken"
+            useGeneratedKeys="true" keyProperty="tokenId" keyColumn="token_id">
+        INSERT INTO all_token (
+            app_name, token_type, token_value,
+            expires_in, expire_time, created_at,
+            reserved1, reserved2, reserved3, reserved4, reserved5
+        ) VALUES (
+                     #{appName}, #{tokenType}, #{tokenValue},
+                     #{expiresIn}, #{expireTime}, NOW(),
+                     #{reserved1}, #{reserved2}, #{reserved3}, #{reserved4}, #{reserved5}
+                 )
+    </insert>
+
+    <!-- 更新记录 -->
+    <update id="updateByPrimaryKey" parameterType="com.fuYunSoft.pojo.AllToken">
+        UPDATE all_token
+        SET
+            app_name = #{appName},
+            token_type = #{tokenType},
+            token_value = #{tokenValue},
+            expires_in = #{expiresIn},
+            expire_time = #{expireTime},
+            updated_at = NOW(),
+            reserved1 = #{reserved1},
+            reserved2 = #{reserved2},
+            reserved3 = #{reserved3},
+            reserved4 = #{reserved4},
+            reserved5 = #{reserved5}
+        WHERE token_id = #{tokenId}
+    </update>
+
+    <!-- 根据主键查询 -->
+    <select id="selectByPrimaryKey" resultMap="AllTokenResultMap" parameterType="int">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM all_token
+        WHERE token_id = #{tokenId}
+    </select>
+
+    <!-- 根据主键删除 -->
+    <delete id="deleteByPrimaryKey" parameterType="int">
+        DELETE FROM all_token
+        WHERE token_id = #{tokenId}
+    </delete>
+</mapper>
