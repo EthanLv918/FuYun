@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DemoTask {
 
-    // 每60秒执行一次
+    // 每5秒执行一次
     @Scheduled(fixedRate = 60000)
     public void task1() {
         System.out.println("定时任务执行：" + System.currentTimeMillis());

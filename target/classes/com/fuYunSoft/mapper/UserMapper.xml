@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fuYunSoft.mapper.UserMapper">
+
+    <resultMap id="UserResultMap" type="com.fuYunSoft.pojo.User">
+        <id property="userId" column="user_id"/>
+        <result property="openid" column="openid"/>
+        <result property="nickname" column="nickname"/>
+        <result property="avatarUrl" column="avatar_url"/>
+        <result property="isCompetitor" column="is_competitor"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+    <select id="selectByOpenId" resultMap="UserResultMap">
+        SELECT * FROM users WHERE openid = #{openid}
+    </select>
+
+    <select id="selectById" resultMap="UserResultMap">
+        SELECT * FROM users WHERE user_id = #{userId}
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="userId">
+        INSERT INTO users (openid, nickname, avatar_url, is_competitor, created_at, updated_at)
+        VALUES (#{openid}, #{nickname}, #{avatarUrl}, #{isCompetitor}, #{createdAt}, #{updatedAt})
+    </insert>
+
+    <update id="update">
+        UPDATE users SET
+                         nickname = #{nickname},
+                         avatar_url = #{avatarUrl},
+                         is_competitor = #{isCompetitor},
+                         updated_at = #{updatedAt}
+        WHERE user_id = #{userId}
+    </update>
+</mapper>

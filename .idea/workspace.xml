@@ -5,136 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfe540e8-9d1e-4a52-9948-d2fb43af5219" name="更改" comment="3demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/annotation/AccessLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/annotation/ApiIdempotent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/annotation/ColNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/common/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/common/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/common/ServerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/dto/AccessTokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/dto/DemoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/dto/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/exception/MyControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/interceptor/AccessLimitInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/interceptor/ApiIdempotentInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/AllTokenMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/AllTokenMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CommentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionGroupsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionGroupsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/CompetitionsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/DemoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/DemoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/HotStocksMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/HotStocksMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/InvestmentThoughtsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/InvestmentThoughtsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/LikesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/LikesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/ProfitRankingsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/ProfitRankingsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/TokenMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/TradeRecordsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/TradeRecordsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserCompetitionsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserCompetitionsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserRelationsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserRelationsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserStatsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UserStatsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UsersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/mapper/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/AllToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/CompetitionGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Competitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/HotStocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/InvestmentThoughts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Likes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/ProfitRankings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/TradeRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/UserCompetitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/UserRelations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/UserStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/schedule/Schedules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/schedule/TokenSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/Impl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/Impl/LxTokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/service/LxTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/ConfigUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/ECSMD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/JodaTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/ListUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/OkHttpConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/OkHttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/QrCodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/utils/SpringContextUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/FuYunSoftApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/dto/WxLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/ParamValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/exception/UnauthorizedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/interceptor/LogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/AllTokenMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/AllTokenMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/pojo/AllToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/DemoTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/WxTokenRefreshTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/AsyncService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/WxAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/WxTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/impl/WxAuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/service/impl/WxTokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/JsonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/utils/SessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/FuYun创表sql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/all_token创表.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft/FuYunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuYun/FuYunApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/FuYunSoftApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/FuYunSoftApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/DemoTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/DemoTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/WxTokenRefreshTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuYunSoft/schedule/WxTokenRefreshTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/ddl_create_database_01.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/dml_create_fund_02.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/dml_create_msg_log_03.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/dml_create_user_04.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/FuYunApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/FuYunApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/ddl_create_database_01.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/dml_create_fund_02.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/dml_create_msg_log_03.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/dml_create_user_04.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/annotation/AccessLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/annotation/AccessLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/annotation/ApiIdempotent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/annotation/ApiIdempotent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/annotation/ColNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/annotation/ColNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/Constant$CalculateTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/Constant$LogType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/Constant$MsgLogStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/Constant$Redis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/ResponseCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/ServerResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/common/ServerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/dto/DemoDto$DemoDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/dto/DemoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/dto/DemoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/exception/MyControllerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/exception/MyControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/exception/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/exception/ServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/interceptor/AccessLimitInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/interceptor/AccessLimitInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/interceptor/ApiIdempotentInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/interceptor/ApiIdempotentInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/mapper/DemoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/mapper/DemoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/mapper/需要生成XML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/pojo/Demo$DemoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/pojo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/pojo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/pojo/Mail$MailBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/pojo/Mail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/pojo/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/schedule/Schedules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/schedule/Schedules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/DemoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/TokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/TokenServiceImpl/TokenServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/TokenServiceImpl/TokenServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/demoImpl/DemoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/service/demoImpl/DemoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/BeanUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/ConfigUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/ConfigUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/IpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/IpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/JodaTimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/JodaTimeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/ListUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/ListUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/MailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/MailUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/OkHttpConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/OkHttpConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/OkHttpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/OkHttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/PageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/RandomUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/RandomUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/SpringContextUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/utils/SpringContextUtil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,35 +147,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.DemoApplication.executor": "Run",
-    "Spring Boot.FuYunApplication.executor": "Run",
-    "Spring Boot.FuYunSoftApplication.executor": "Run",
-    "Spring Boot.TestApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/IdeaWork/FUN1/src/main/java/com/fuYunSoft",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/IdeaWork/FUN1/src/main/java/org/example/Main.java",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.QrCodeUtils.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.FuYunApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.FuYunSoftApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.TestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaWork/FUN1/src/main/java/com/fuYunSoft&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/IdeaWork/FUN1/src/main/java/org/example/Main.java&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.QrCodeUtils.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaWork\FUN1\src\main\java\com\fuYunSoft" />
@@ -273,32 +220,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft.DemoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuYunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fuYun.FuYunApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fuYun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FuYunSoftApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fuYunSoft.FuYunSoftApplication" />
@@ -315,8 +236,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.FuYunSoftApplication" />
-        <item itemvalue="Spring Boot.FuYunApplication" />
-        <item itemvalue="Spring Boot.DemoApplication" />
         <item itemvalue="应用程序.QrCodeUtils" />
       </list>
     </recent_temporary>
@@ -348,7 +267,8 @@
       <workItem from="1747273914216" duration="3585000" />
       <workItem from="1747279094416" duration="11951000" />
       <workItem from="1747354952964" duration="4330000" />
-      <workItem from="1747441389656" duration="12472000" />
+      <workItem from="1747441389656" duration="15974000" />
+      <workItem from="1747618142572" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -398,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747106634757</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3demo">
+      <option name="closed" value="true" />
+      <created>1747455087996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747455087996</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
